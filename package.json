@@ -1,0 +1,33 @@
+{
+  "name": "ado-test-plan-reporter",
+  "version": "1.0.0",
+  "description": "Cypress + Azure DevOps Test Plan Reporter",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mypeakdigitalinc/ado-test-plan-reporter.git"
+  },
+  "keywords": [
+    "ado",
+    "reporter",
+    "test-plan"
+  ],
+  "author": "MyPEAK Digital Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mypeakdigitalinc/ado-test-plan-reporter/issues"
+  },
+  "homepage": "https://github.com/mypeakdigitalinc/ado-test-plan-reporter#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
